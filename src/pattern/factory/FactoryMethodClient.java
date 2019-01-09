@@ -11,8 +11,8 @@ public class FactoryMethodClient {
 }
 
 enum PizzaType  {
-    NEO("neo"), GREEK("greek"),
-    NEW_YORK("newYork");
+    NEO("Neo"), GREEK("Greek"),
+    NEW_YORK("New York");
 
     String type;
     PizzaType(String s) {
